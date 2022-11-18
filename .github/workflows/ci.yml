@@ -7,7 +7,8 @@ on:
 
 env:
     AWS_REGION: us-east-1
-    ECR_REPOSITORY: 123707704970.dkr.ecr.us-east-1.amazonaws.com/timeoff-management          # set this to your Amazon ECR repository name
+    ECR_REPOSITORY: timeoff-management     
+    #ECR_REGISTRY: 123707704970.dkr.ecr.us-east-1.amazonaws.com      # set this to your Amazon ECR repository name
 
 jobs:
   deploy:
